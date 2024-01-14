@@ -1,0 +1,67 @@
+
+
+
+
+
+/* this css file not use in webiste , not important  */
+
+/* -----blogcontentpages----- */
+.contain{
+    display: grid;
+    justify-content: center;
+    grid-gap: 1px;
+    grid-template-columns: repeat(1,1fr);
+    /* background-color: darkcyan; */
+  
+   
+  /* margin-top: 100px; */
+  
+  }
+  
+  
+  #componentContainer1 {
+    position: sticky;
+    margin: 100px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    /* background-color: gold; */
+  
+    
+    
+  }
+   
+  
+  .component1{
+    text-align: center;
+    box-shadow: 0 0 1.5px  rgb(67, 67, 67);
+    margin: 20px;
+   /* z-index: -1; */
+  /* margin: 50px 110px 10px 110px ; */
+   background-color: white
+   /* z-index: -1; */
+    /* justify-content: center; */
+  
+    /* margin-top: 100px; */
+    /* padding: 15px; */
+    /* margin:140px 60px 0px 90px; */
+    /* background-color: firebrick; */
+    /* text-align: center; */
+   
+    /* border-radius: 3px; */
+    /* background-color: #e9e9e9; */
+  }
+  
+    
+  
+  .component1 h5  {
+    /* /* padding-top:0px; */
+    margin-top: 20px;
+    padding-bottom: 40px; 
+    /* margin: 3px; */
+    /* position: static; */
+  }
+  .component1 h3 {
+    margin-top: 20px;
+    padding-bottom: 30px;
+  }
+  
