@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+<style>
+    div{
+    color: rgb(204, 45, 45);
+      font-size: 35px;
+      background-color: white;
+      width: 250px;
+      height:460px;
+     padding: 10px 90px;
+      border-radius: 10px ;
+      margin-top: 15px;
+
+    }
+    header{
+        background-color: brown;
+        color: rgb(255, 255, 255);
+        font-size:50px;
+    }
+    body{
+        background-color: rgb(55, 148, 255);
+    }
+    input{
+        width: 270px; height: 35px;
+        box-sizing: border-box;
+        border: 2px solid rgb(134, 120, 120);
+        border-radius: 4px;
+        position: relative;
+        display: block;
+    }
+    button{
+        color: rgb(230, 230, 230);
+        background-color: brown;
+    border-radius: 25px;
+    padding: 10px 85px;
+    
+    cursor: pointer;
+    }
+    h4{
+        font-size: small;
+        color: black;
+    }
+</style>
+
+
+</head>
+<center>
+
+    <header>
+        Welcome to ARQ 
+    </center>
+</header>
+<hr>
+
+
+<body>
+    <center>
+     <div>
+        <u> <h2> LOGIN </h2> </u>
+        <label for="">Username</label>
+        <input type="email" id="username" name="username" placeholder="Enter Username">
+        <br>
+        <label for="">Password</label>
+        <input type="password" id="password"  placeholder="Enter password" name="password"> <br>
+        <button onclick="func()" >LOGIN</button>
+        <br>
+        <h4>Not a Member? SIGN-UP</h4>
+    </div>
+</center>
+
+<script>
+    function func(){
+var username= document.getElementById("username").value;
+var password= document.getElementById("password ").value;
+if ( username == 'AbdulRehman' && password =='123456'){
+    alert("Success Full")
+    window.location.assign("mern1.HTML")
+}
+else{
+    alert("Wrong entry invalid ")
+}
+    }
+</script>
+</body>
+</html>
